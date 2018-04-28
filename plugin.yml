@@ -1,0 +1,9 @@
+name: motdSpigotPlugin
+main: motdSpigotPlugin.motdPlugin
+version: 1.0
+commands:
+    setmotd:
+        description: Sets the Message of the Day
+        usage: /setmotd <message>
+        permission: motdPlugin.basic
+        permission-message: You don't have permission.
