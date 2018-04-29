@@ -13,7 +13,7 @@ public class motdPlugin extends JavaPlugin{
 	public static File file;
 	@Override
 	public void onEnable() {
-		int min1 = 1;
+		int min1 = 10;
 		createConfig();
 		getLogger().info("motdPlugin is enabled."); //apparently spigot does this automatically?
 		getServer().getPluginManager().registerEvents(new MyListener(), this);
